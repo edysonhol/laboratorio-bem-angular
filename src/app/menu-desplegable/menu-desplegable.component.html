@@ -1,0 +1,46 @@
+<header class="header">
+
+  <h1 class="header__h1"> Laboratorio BEM </h1>
+
+  <button class="header__button" (click)="desplegarMenu()">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__button__svg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+
+      <span class="header__button__span"> Desplegar Menu </span>
+  </button>
+
+  <nav class="header__nav">
+
+      <ul class="ul" [ngClass]="{'show': desplegarMenuValor}">
+          <li class="ul__li">
+              <a href="#" class="ul__li__link" (click)="desplegarMenu()"> Productos </a>
+          </li>
+
+          <li class="ul__li">
+              <a href="#" class="ul__li__link"> Celulares </a>
+          </li>
+          <li class="ul__li">
+              <a href="#" class="ul__li__link"> Computadores </a>
+          </li>
+          <li class="ul__li">
+              <a href="#" class="ul__li__link"> Tv </a>
+          </li>
+          <li class="ul__li">
+              <a href="#" class="ul__li__link"> Audio </a>
+          </li>
+          <li class="ul__li">
+            <a href="#" class="ul__li__link"> Electrodomesticos </a>
+          </li>
+          <li class="ul__li">
+            <a href="#" class="ul__li__link"> Videojuegos </a>
+          </li>
+          <li class="ul__li">
+            <a href="#" class="ul__li__link"> Camaras </a>
+          </li>
+      </ul>
+
+  </nav>
+</header>
+

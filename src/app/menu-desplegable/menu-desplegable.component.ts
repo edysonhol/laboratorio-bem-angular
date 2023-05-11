@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './menu-desplegable.component.html',
   styleUrls: ['./menu-desplegable.component.scss']
 })
+
 export class MenuDesplegableComponent {
+
+  desplegarMenuValor = false;
+
+  desplegarMenu(){
+    this.desplegarMenuValor = !this.desplegarMenuValor;
+  }
 
 }

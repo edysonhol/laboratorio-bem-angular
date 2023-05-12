@@ -11,16 +11,16 @@
       background-color: #5767f8;
   }
 
-  &__button:hover {
-    background-color: #a7d4e9;
-  }
-
   &__button__span {
     font-size: 22px;
   }
 
   &__nav  {
       background-color: #5882f7;
+  }
+
+  &__button:hover {
+    background-color: #a7d4e9;
   }
 
   .ul {
@@ -41,10 +41,11 @@
         text-decoration: none;
         font-size: 28px;
 
-        &:hover{
-          font-size: 30px;
-          font-weight: 600;
-        }
+
+      }
+      &__li__link:hover{
+        font-size: 30px;
+        font-weight: 600;
       }
   }
 }
